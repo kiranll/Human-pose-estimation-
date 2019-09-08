@@ -62,7 +62,7 @@ You can download the apk as below to test on your device.
 ### Dependencies:
 
 * Python3
-* TensorFlow >= 1.4
+* TensorFlow
 * Mace
 
 ### Dataset:
@@ -120,7 +120,7 @@ pred_image_on_tensorboard: True
 
 The cfg not cover all the parameters of the model, there still have some parameters in the `network_mv2_cpm.py`.
 
-### Train by nvidia-docker
+### Train by nvidia-docker....
 
 Build the docker by the following command:
 
@@ -320,7 +320,7 @@ Then, place the tflite file in `android_demo/app/src/main/assets` and modify the
 ......
 ```
 
-Finally, import the project to `Android Studio` and run in you smartphone.
+Finally, import the project to `Android Studio` and run in you smartphone...
 
 ## iOS Demo
 
@@ -375,4 +375,4 @@ CPM & Hourglass | 74 ms    | 41 ms               | 103 ms    | 118 ms     | 331 
 
 ***
 
-[Apache License 2.0](https://github.com/edvardHua/PoseEstimationForMobile/blob/master/LICENSE)
+[Apache License 2.0](https://github.com/edvardHua/PoseEstimationForMobile/blob/master/LICENSE)..
